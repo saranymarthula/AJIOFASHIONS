@@ -1,0 +1,180 @@
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .example {background: orange;}
+  } 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+.navlink{
+    flex:1;
+    margin-left:650px;
+}
+.navlink ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+.navlink ul li a{
+    color:rgb(100, 0, 73);
+    text-decoration: none;
+    font-size: 15px;
+}
+.navlink ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navlink ul li:hover::after{
+    width: 100%;
+}
+
+
+p{
+    color:darkgreen;
+}
+.container{
+   
+    margin: auto;
+    
+}
+h1{
+    font-size: 50px;
+    font-style: oblique;
+    margin-top: 80px;
+    color:rgb(9,0,128) ;
+}
+.btn{
+    display:inline-block;
+    background: rgb(0, 106, 255);
+    color:#fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: o.5s;
+     
+}
+.btn:hover{
+    background:rgb(255, 38, 0);
+}
+.header{
+    background: radial-gradient(#fff,#00ffff);
+}
+
+
+.col-1{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition:transform(0.5s);
+}
+
+.col-1 img{
+   width:20%;
+}
+
+.title{
+    text-align:center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 40px;
+    color: #555;
+}
+.title::after{
+    content:'';
+    background: #ff523b;
+    width:80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left:50%;
+    
+}
+  h4{
+    color: #555;
+    font-weight: normal;
+  } 
+  /*contact*/ 
+ .contact{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 0px;
+   
+    
+    
+ }
+ .contact1{
+    margin:auto;
+    padding:top;
+    font-family: initial;
+    text-align: center;
+    font-size:25px;
+    
+
+
+    
+ }
+  .about{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    position: relative;
+    
+  }
+  .col-2 p{
+background-color: aquamarine;
+padding: 10px;
+margin-bottom: 5%;
+  }
+.col-2 h2{
+    color: blueviolet;
+
+}
+.add{
+    display:inline-block;
+    background:red;
+    color: white;
+    padding:6px 10px;
+   margin: 60px;
+   border-radius: 30px;
+   text-align: center;
+   transition: 0.5s;
+    
+}
+.add:hover{
+    background:#555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
